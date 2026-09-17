@@ -3,43 +3,278 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Kuran Türkmen</title>
+    <title>Privacy Policy - Kuran Türkmen - Namaz & Azan</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
-        h1 { color: #0A5C4A; }
-        h2 { color: #0A5C4A; margin-top: 30px; }
-        p { margin-bottom: 15px; }
-        a { color: #0A5C4A; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
+        :root {
+            --primary: #0A5C4A;
+            --primary-dark: #06382D;
+            --gold: #D97706;
+            --text: #1F2937;
+            --text-muted: #4B5563;
+            --bg: #F9FAFB;
+            --card-bg: #FFFFFF;
+            --border: #E5E7EB;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 48px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+
+        .header {
+            border-bottom: 2px solid #F3F4F6;
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .header h1 {
+            color: var(--primary);
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .header .meta {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .badge-core {
+            display: inline-block;
+            background-color: #ECFDF5;
+            color: #065F46;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 10px;
+            border: 1px solid #A7F3D0;
+        }
+
+        h2 {
+            color: var(--primary-dark);
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 36px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        h3 {
+            color: var(--text);
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+
+        .highlight-box {
+            background-color: #F0FDF4;
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+            font-size: 15px;
+        }
+
+        .permission-card {
+            background-color: #F9FAFB;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 14px;
+        }
+
+        .permission-card strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 4px;
+            font-size: 15px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #0A5C4A 0%, #06382D 100%);
+            color: #FFFFFF;
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .contact-box h3 {
+            color: #FEF08A;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .contact-box p {
+            color: #E5E7EB;
+            margin-bottom: 0;
+        }
+
+        .contact-box a {
+            color: #FEF08A;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            body { padding: 16px 10px; }
+            .container { padding: 24px 18px; border-radius: 12px; }
+            .header h1 { font-size: 26px; }
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for Kuran Türkmen - Namaz & Azan</h1>
-    <p><strong>Effective Date:</strong> September 2026</p>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="meta">
+                <strong>Application:</strong> Kuran Türkmen - Namaz & Azan (com.kuranturkmen.app) &bull; 
+                <strong>Effective Date:</strong> September 17, 2026 &bull; 
+                <strong>Target Audience:</strong> 18+ (Adults)
+            </div>
+            <div class="badge-core">100% Privacy Friendly &bull; Zero Personal Data Sold or Shared &bull; Rated 18+</div>
+        </div>
 
-    <p>Thank you for choosing to use <strong>Kuran Türkmen - Namaz & Azan</strong> ("we", "us", or "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact the developer via the email provided on our Google Play Store listing.</p>
+        <p>
+            Thank you for using <strong>Kuran Türkmen - Namaz & Azan</strong> ("we", "our", or "the App"). We are firmly committed to protecting your privacy. This Privacy Policy explains how our application operates, how device features are utilized, and clarifies that <strong>we do not collect, store, sell, or transmit any of your personal information to external servers</strong>.
+        </p>
 
-    <h2>1. Information We Collect</h2>
-    <p>Our application focuses on providing Islamic resources, including the Holy Quran (in Turkmen), prayer times, Hijri calendar, and Adhan (Azan) notifications. To provide these features, we request certain permissions on your device:</p>
-    <ul>
-        <li><strong>Location Data:</strong> We may request access to your device's location (approximate and/or precise) solely to calculate accurate prayer times (Namaz) and Qibla direction based on your specific geographical area. This data is processed locally on your device and is <strong>not</strong> transmitted to, stored on, or shared with our servers or any third parties.</li>
-        <li><strong>Notifications & Alarms:</strong> We request permissions to set alarms and send notifications to alert you when it is prayer time (Adhan/Azan) or for daily Islamic reminders.</li>
-        <li><strong>Background Services:</strong> We use background services to play Quran recitations continuously even when the app is closed or the screen is locked.</li>
-    </ul>
+        <div class="highlight-box">
+            <strong>Key Summary:</strong> Kuran Türkmen - Namaz & Azan is designed to be privacy-first. All Quran text, translations, prayer time calculations, and user settings are stored locally on your device. We do not use third-party advertising networks, profiling cookies, or analytics tracking SDKs.
+        </div>
 
-    <h2>2. How We Use Your Information</h2>
-    <p>Any data accessed by the app (such as your location) is used strictly to deliver the app's core functionalities. We do not collect, store, sell, or monetize your personal data.</p>
+        <h2>1. Device Permissions and How They Are Used</h2>
+        <p>To provide accurate religious services such as prayer times, timely Azan (Adhan) alarms, and uninterrupted Quran audio recitation, the App requests specific permissions on your Android device:</p>
 
-    <h2>3. Third-Party Services</h2>
-    <p>Our app does not integrate with any third-party ad networks or data brokers. Audio files (such as Quran recitations) and text data are fetched from trusted Islamic sources directly to your device.</p>
+        <div class="permission-card">
+            <strong>📍 Location Access (ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION)</strong>
+            <span><strong>Purpose:</strong> Used exclusively to calculate accurate local Islamic prayer times (Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha) and to determine the Qibla direction based on your geographic coordinates.</span>
+            <br>
+            <span><strong>Data Handling:</strong> Location calculation occurs <strong>entirely locally on your device</strong>. Your location coordinates are <strong>never transmitted</strong> to our servers, never logged, and never shared with any third party.</span>
+        </div>
 
-    <h2>4. Children's Privacy</h2>
-    <p>Our application is suitable for all ages. We do not knowingly collect personally identifiable information from anyone, including children under 13.</p>
+        <div class="permission-card">
+            <strong>⏰ Exact Alarms & Reminders (SCHEDULE_EXACT_ALARM, USE_FULL_SCREEN_INTENT)</strong>
+            <span><strong>Purpose:</strong> Prayer times shift daily based on the sun's position. Exact alarm permission is required so the application can trigger Azan audio notifications precisely at the exact prayer minute, even when the device is in low-power or Doze mode.</span>
+            <br>
+            <span><strong>Data Handling:</strong> Alarm schedules are purely handled by the Android operating system on your device.</span>
+        </div>
 
-    <h2>5. Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time to reflect changes in our app or regulatory requirements. We advise you to review this page periodically for any changes. Changes are effective immediately after they are posted on this page.</p>
+        <div class="permission-card">
+            <strong>🔊 Foreground Service - Media Playback (FOREGROUND_SERVICE, FOREGROUND_SERVICE_MEDIA_PLAYBACK)</strong>
+            <span><strong>Purpose:</strong> To allow continuous listening to Holy Quran recitations and playing Azan audio notifications in the background while the screen is locked or when you navigate to other applications.</span>
+            <br>
+            <span><strong>User Control:</strong> A persistent playback notification is displayed allowing you to pause, play, or dismiss audio playback at any time.</span>
+        </div>
 
-    <h2>6. Contact Us</h2>
-    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at the developer email address listed on our Google Play Store page.</p>
+        <div class="permission-card">
+            <strong>🔔 Notifications (POST_NOTIFICATIONS, VIBRATE, WAKE_LOCK)</strong>
+            <span><strong>Purpose:</strong> To notify you when a prayer time enters and to deliver daily verses (Aýat), prayers (Doga), or Islamic reminders configured by you.</span>
+            <br>
+            <span><strong>User Control:</strong> You have complete control to enable, disable, or customize notification sounds in the application settings or via Android system settings.</span>
+        </div>
+
+        <div class="permission-card">
+            <strong>🔄 Boot Completed (RECEIVE_BOOT_COMPLETED)</strong>
+            <span><strong>Purpose:</strong> When your phone restarts, scheduled prayer alarms are automatically re-registered so you do not miss any prayer notifications.</span>
+        </div>
+
+        <h2>2. Data Collection, Storage, and Sharing</h2>
+        <ul>
+            <li><strong>No Personal Identifiers Collected:</strong> We do not ask for, collect, or store personal identifiers such as your real name, email address, phone number, contacts, photos, or files.</li>
+            <li><strong>No Tracking or Analytics SDKs:</strong> The App does not integrate third-party tracking libraries, analytics trackers (such as Google Analytics or Firebase Analytics for user profiling), or advertising identifiers.</li>
+            <li><strong>No Advertising Networks:</strong> The application does not contain advertisements (no AdMob, Unity Ads, etc.) and does not share device identifiers with ad networks.</li>
+            <li><strong>Local Storage Only:</strong> All personal preferences (such as your chosen reciter, bookmark history, font sizes, prayer reminder offsets, and notes) are saved exclusively in your device’s local storage (SQLite / Async Storage).</li>
+        </ul>
+
+        <h2>3. Third-Party Audio Repositories</h2>
+        <p>
+            Quran recitations by renowned reciters (Qaris) are streamed or downloaded directly from trusted, public Quran CDN servers (such as EveryAyah / Quran Central repositories). These network requests only fetch the selected audio files and do not transmit any identifiable personal data.
+        </p>
+
+        <h2>4. External Links & Interactive Services (Telegram & Third Parties)</h2>
+        <p>
+            The Application may include optional external links or redirects to third-party platforms, such as an external Telegram bot (e.g., for community communication, spiritual advice, or Abjad/Ebced calculation):
+        </p>
+        <ul>
+            <li><strong>Voluntary Interaction:</strong> Clicking any external Telegram link opens the Telegram app or website upon your explicit action. The App itself does not collect or log your Telegram username, messages, or activity.</li>
+            <li><strong>No Data Export:</strong> The App does not automatically send any of your device information, local bookmarks, or location coordinates to Telegram or any bot administrator.</li>
+            <li><strong>Third-Party Policies:</strong> Any information you voluntarily choose to share inside Telegram is governed entirely by Telegram’s Terms of Service and Privacy Policy.</li>
+        </ul>
+
+        <h2>5. Age Restrictions (18+ Policy)</h2>
+        <p>
+            Our application is rated and intended for an adult audience (<strong>18+ years of age</strong>). We do not knowingly market to, target, or collect any personal information from children. If you believe a minor has accessed the application or any external linked services, please note that no personal data is collected or stored on our servers.
+        </p>
+
+        <h2>6. Data Retention and Deletion</h2>
+        <p>
+            Since we do not collect or transmit your data to any remote database, we do not maintain personal user accounts or store any personal data on external servers. You can permanently erase all local application data, bookmarks, and settings at any time by:
+        </p>
+        <ul>
+            <li>Clearing app storage via <em>Android Settings &rarr; Apps &rarr; Kuran Türkmen &rarr; Storage &rarr; Clear Data</em>, or</li>
+            <li>Uninstalling the application from your device.</li>
+        </ul>
+
+        <h2>7. Security of Your Experience</h2>
+        <p>
+            We prioritize user trust and application safety. All bundled database assets (Quran translations, Hadiths, Islamic calendar) are cryptographically validated, and network connections for Quran audio retrieval use industry-standard HTTPS encryption.
+        </p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>
+            We may occasionally update this Privacy Policy to reflect future application enhancements or evolving legal standards. Any updates will be posted to this public URL with a revised "Effective Date".
+        </p>
+
+        <div class="contact-box">
+            <h3>Contact and Inquiries</h3>
+            <p>
+                If you have any questions, feedback, or concerns regarding this Privacy Policy or the security of Kuran Türkmen - Namaz & Azan, please reach out to us at:
+                <br><br>
+                <strong>Developer Support:</strong> <a href="mailto:aymuhammet88@gmail.com">aymuhammet88@gmail.com</a>
+                <br>
+                <strong>Application Package:</strong> com.kuranturkmen.app
+            </p>
+        </div>
+    </div>
 </body>
 </html>
